@@ -54,7 +54,7 @@ Some exoplanets are more hospitable to life than even Earth, yet this is no utop
 
 #### Snowy
 ![Snowy-pawn](https://user-images.githubusercontent.com/1922739/208227136-5a1d0e60-58e9-417f-a03b-b96185edbab3.png)
-Whether because of a sudden ice age or bad navigation, the Snowies' ancestors found themselves stuck on an inhospitably cold, dark ice world. Their technology could only keep them warm for so long, so they genetically engineered their children to grow thick, warm fur (and fluffy tails) to keep warm and have sensitive eyes for seeing in through the gloom. The cost of this genetic modification was a significant increase in required nutrition per day and a sensitivity to heat.
+Whether because of a sudden ice age or bad navigation, the Snowies' ancestors found themselves stuck on an inhospitably cold, dark ice world. Their technology could only keep them warm for so long, so they genetically engineered their children to grow thick, warm fur (and fluffy tails) to keep warm and have sensitive eyes for seeing in the darkness. The cost of this genetic modification was a significant increase in required nutrition per day and a sensitivity to heat.
 
 ### Factions
 
