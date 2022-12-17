@@ -43,7 +43,6 @@
 		<iconPath>UI/Xenotypes/Duster</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
-			<li MayRequire="biotexpans.mammalia">BTEMa_TailElephant</li>
 			<li>WoundHealing_Slow</li>
 			<li>MoveSpeed_Quick</li>
 			<li>MinTemp_SmallIncrease</li>
@@ -95,7 +94,7 @@
 			<li>Skin_SlateGray</li>
 			<li>StrongStomach</li>
 			<li>AptitudeStrong_Melee</li>
-			<li MayRequire="biotexpans.mammalia">AptitudePoor_Animals</li>
+			<li MayRequire="biotexpans.mammalia">AptitudePoor_Social</li>
 		</genes>
 	</XenotypeDef>
 
@@ -108,7 +107,6 @@
 		<inheritable>true</inheritable>
 		<genes>
 			<li MayRequire="biotexpans.mammalia">BTEMa_VulpineEars</li>
-			<li MayRequire="biotexpans.mammalia">BTEMa_NoseShort</li>
 			<li>MinTemp_LargeDecrease</li>
 			<li>MaxTemp_SmallDecrease</li>
 			<li>FireWeakness</li>
