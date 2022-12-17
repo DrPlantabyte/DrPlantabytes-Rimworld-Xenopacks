@@ -1,4 +1,4 @@
-# Random Factions Rimworld Mod
+# DrPlantabyte's Xenotype Pack Rimworld Mods
 Author: Dr. Plantabyte (aka Christopher C. Hall)
 ## CC BY 4.0
 
