@@ -25,15 +25,13 @@
 		</disallowedMemes>
 		<xenotypeSet>
 			<xenotypeChances>
-				<Astro>0.13</Astro>
+				<Astro>0.12</Astro>
 				<Syren>0.08</Syren>
-				<MGen>0.13</MGen>
-				<Behinder MayRequire="dpxp_exoadapt">0.02</Behinder>
-				<Duster MayRequire="dpxp_exoadapt">0.02</Duster>
-				<Snowy MayRequire="dpxp_exoadapt">0.02</Snowy>
-				<Farril MayRequire="dpxp_exoadapt">0.02</Farril>
-				<Hussar>0.05</Hussar>
-				<Genie>0.03</Genie>
+				<MGen>0.10</MGen>
+				<Behinder MayRequire="dpxp.exoadapt">0.02</Behinder>
+				<Duster MayRequire="dpxp.exoadapt">0.02</Duster>
+				<Snowy MayRequire="dpxp.exoadapt">0.02</Snowy>
+				<Farril MayRequire="dpxp.exoadapt">0.02</Farril>
 			</xenotypeChances>
 		</xenotypeSet>
 		<backstoryFilters>
