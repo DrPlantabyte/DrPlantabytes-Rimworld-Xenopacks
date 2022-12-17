@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>Behinder</defName>
+		<label>behinder</label>
+		<description>The Behinders were "left behind" in a highly toxic landscape. Some of them refused to accept their fate and desparately started injecting any and all known toxic resistance genes into their cells. A combination of genome tinkering and natural selection resulted in a population of humans who are completely immune to toxic pollution and even most chemical weapons, but the slap-dash nature of their genome modifications has left them with a number of genetic deformities and defects, shortening their lifespan.</description>
+		<descriptionShort>Behinders are immune to toxicity, but are ugly and more likely to develop cancer.</descriptionShort>
+		<iconPath>UI/Xenotypes/Behinder</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>ToxResist_Total</li>
+			<li>Beauty_Ugly</li>
+			<li>Beard_Always</li>
+			<li>Ears_Human</li>
+			<li>Ears_Pointed</li>
+			<li>Jaw_Baseline</li>
+			<li>Jaw_Heavy</li>
+			<li>Brow_Heavy</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Body_Fat</li>
+			<li>Hair_LightBlue</li>
+			<li>Hair_LightTeal</li>
+			<li>Hair_LightGreen</li>
+			<li>Hair_Pink</li>
+			<li>Hair_LightPurple</li>
+			<li>Hair_BrightRed</li>
+			<li>StrongStomach</li>
+			<li>Nearsighted</li>
+			<li>Instability_Mild</li>
+			<li>Hands_Human</li>
+			<li>Hands_Pig</li>
+			<li>ElongatedFingers</li>
+		</genes>
+	</XenotypeDef>
+	
+	<XenotypeDef>
+		<defName>Duster</defName>
+		<label>duster</label>
+		<description>The Dusters are descendants of humans who engineered themselves to not just survive but thrive on the unearthly hot climates of some exoplanets. Dusters have a very high temperature tolerance and can run very quickly, though they also require more sleep than most humans, heal injuries slowly, and lack the strength to be effective in melee combat.</description>
+		<descriptionShort>Dusters can tolerate high heat and run very quickly, but require more sleep, heal injuries slowly, and are poor in melee combat.</descriptionShort>
+		<iconPath>UI/Xenotypes/Duster</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li MayRequire="biotexpans.mammalia">BTEMa_TailElephant</li>
+			<li>WoundHealing_Slow</li>
+			<li>MoveSpeed_Quick</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_LargeIncrease</li>
+			<li>Sleepy</li>
+			<li>Hair_ShortOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>Body_Thin</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_Gray</li>
+			<li>Hair_Blonde</li>
+			<li>Hair_SandyBlonde</li>
+			<li>Hair_LightOrange</li>
+			<li>Hair_LightTeal</li>
+			<li>Skin_PaleYellow</li>
+			<li>Skin_Orange</li>
+			<li>AptitudePoor_Melee</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Farril</defName>
+		<label>farril</label>
+		<description>Some exoplanets are more hospitable to life than even Earth, yet this is no utopia. On these steamy jungle planets, terraformed plants and animals quickly evolve into gigantic predators that could easily snack on a T-rex. In order to keep their spot as top predator, the Farril humans evolved their own genomes into something much more predatory. They became unnaturally tough and strong, developed camouflaged skin, and grew sharp horns. However, their adapatations also made them impulsive and ill-tempered.</description>
+		<descriptionShort>The Farril are unnaturally tough and strong, developed camouflaged skin, and grew sharp horns, but are also impulsive and ill-tempered.</descriptionShort>
+		<iconPath>UI/Xenotypes/Farril</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li MayRequire="biotexpans.mammalia">BTEMa_SharpClaws</li>
+			<li MayRequire="biotexpans.mythic">BTEMy_DraconicHorns</li>
+			<li>PsychicAbility_Deaf</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Aggression_Aggressive</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Pain_Reduced</li>
+			<li>Hair_ShortOnly</li>
+			<li>Headbone_CenterHorn</li>
+			<li>Headbone_MiniHorns</li>
+			<li>Hair_ReddishBrown</li>
+			<li>Hair_DarkBrown</li>
+			<li>Hair_DarkSaturatedReddish</li>
+			<li>Hair_DarkReddish</li>
+			<li>Hair_MidBlack</li>
+			<li>Hair_InkBlack</li>
+			<li>Hair_LightGreen</li>
+			<li>Skin_Green</li>
+			<li>Skin_PaleYellow</li>
+			<li>Skin_SlateGray</li>
+			<li>StrongStomach</li>
+			<li>AptitudeStrong_Melee</li>
+			<li MayRequire="biotexpans.mammalia">AptitudePoor_Animals</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Snowy</defName>
+		<label>snowy</label>
+		<description>Whether because of a sudden ice age or bad navigation, the Snowies' ancestors found themselves stuck on an inhospitably cold, dark ice world. Their technology could only keep them warm for so long, so they genetically engineered their children to grow thick, warm fur (and fluffy tails) to keep warm and have sensitive eyes for seeing in through the gloom. The cost of this genetic modification was a significant increase in required nutrition per day and a sensitivity to heat.</description>
+		<descriptionShort>Snowies have thick fur and fluffy tails to keep warm and can see in the dark, but they get hungry quickly.</descriptionShort>
+		<iconPath>UI/Xenotypes/Snowy</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li MayRequire="biotexpans.mammalia">BTEMa_VulpineEars</li>
+			<li MayRequire="biotexpans.mammalia">BTEMa_NoseShort</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>FireWeakness</li>
+			<li>Eyes_Gray</li>
+			<li>Hair_LongOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Cat</li>
+			<li>Head_Gaunt</li>
+			<li>VoiceRoar</li>
+			<li>Body_Standard</li>
+			<li>Body_Hulk</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_Gray</li>
+			<li>Hair_Blonde</li>
+			<li>Hair_DarkBrown</li>
+			<li>Hair_InkBlack</li>
+			<li>Skin_PaleYellow</li>
+			<li>Skin_SheerWhite</li>
+			<li>Skin_SlateGray</li>
+			<li>DarkVision</li>
+			<li>Furskin</li>
+			<li>Tail_Furry</li>
+		</genes>
+	</XenotypeDef>
+
+
+</Defs>

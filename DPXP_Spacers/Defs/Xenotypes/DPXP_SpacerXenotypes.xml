@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XenotypeDef>
+		<defName>Astro</defName>
+		<label>astro</label>
+		<description>The first Astros were volunteers for servicing and maintaining critical deep-space infrastructure, requiring them to live and work in space for far longer than ordinary human biology can sustain. Thus they accepted a carefully researched set of artificial genes to allow them to live a life as normal as possible in the vast void. Astros are resistant to toxins and radiation, and they need less nutrition than most humans, but they move slowly under normal gravity and need more sleep. They are completely hairless, and their photosynthetic skin can be any shade of green, orange, red, or gray.</description>
+		<descriptionShort>Astros were engineered for life-long service in deep space. They are resistant to toxins and need less food, but move slowly and sleep more.</descriptionShort>
+		<iconPath>UI/Xenotypes/Astro</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>MoveSpeed_Slow</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>ToxResist_Partial</li>
+			<li>Sleepy</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Skin_Green</li>
+			<li>Skin_DeepYellow</li>
+			<li>Skin_PaleYellow</li>
+			<li>Skin_Orange</li>
+			<li>Skin_DeepRed</li>
+			<li>Skin_PaleRed</li>
+			<li>Skin_SlateGray</li>
+			<li>Skin_InkBlack</li>
+			<li>AptitudePoor_Melee</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>MGen</defName>
+		<label>M-Gen</label>
+		<description>The M-Gens (short for many-generation spacers) have lived in orbital space stations for over a hundred generations. In that time, they've evolved distinct traits by natural selection in such an artificial environment. M-Gens very rarely get sick and quickly build immunity to disease. They tend to have calm dispositions and keen minds compatible with living one's entire life in a small crowded space. However, M-Gens suffer from a form of albinism that makes them sensitive to natural sunlight and their pain tolerance is distinctly lower than the average human.</description>
+		<descriptionShort>M-Gens lived in orbit for so long they naturally evolved strong immunity, calm emotions, and keen minds, but are sensitive to UV and pain.</descriptionShort>
+		<iconPath>UI/Xenotypes/M-Gen</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Immunity_SuperStrong</li>
+			<li>UVSensitivity_Mild</li>
+			<li>Aggression_DeadCalm</li>
+			<li>Pain_Extra</li>
+			<li>Eyes_Red</li>
+			<li>Hair_SnowWhite</li>
+			<li>Skin_SheerWhite</li>
+			<li>AptitudeStrong_Intellectual</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>Syren</defName>
+		<label>syren</label>
+		<description>Originating from blackmarket gene-labs, the Syren were meant to be the ultimate social influencers, able to infiltrate high-society and be the face of criminal enterprises. However, the gene-set quickly became popular among celebrities and socialites who wanted to make their children as beautiful and popular as possible. A crack-down by law enforcement shutdown the producers of these gene-sets, but their legacy propagates with every generation. Syren can slowly change their appearance over time, automatically becoming the epitome of beauty in whatever culture they live in, and they are unnaturally sensitive to the emotions of others. However, they were never meant to live beyond the sterile world of cities and space stations, thus they are fragile and prone to disease.</description>
+		<descriptionShort>Syrens have exceptional beauty, social skills, and sensitivity to psychic phenomena, but are sickly and fragile.</descriptionShort>
+		<iconPath>UI/Xenotypes/Syren</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Immunity_Weak</li>
+			<li>PsychicAbility_Enhanced</li>
+			<li>Delicate</li>
+			<li>Beauty_Beautiful</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Body_Thin</li>
+			<li>Body_Hulk</li>
+			<li>Hair_Blonde</li>
+			<li>Hair_DarkBrown</li>
+			<li>Hair_InkBlack</li>
+			<li>Hair_LightBlue</li>
+			<li>Hair_LightTeal</li>
+			<li>Hair_LightGreen</li>
+			<li>Hair_Pink</li>
+			<li>Hair_LightPurple</li>
+			<li>Hair_Grayless</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudePoor_Melee</li>
+			<li>AptitudeRemarkable_Social</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>

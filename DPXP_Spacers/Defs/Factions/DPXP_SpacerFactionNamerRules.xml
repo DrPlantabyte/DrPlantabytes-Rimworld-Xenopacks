@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RulePackDef>
+		<defName>NamerFactionSpacer</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=3)->the [crash_event] [crash_surv]</li>
+				<li>r_name->[spacer_good]'s [crash_event]</li>
+				<li>r_name->[spacer_bad]'s [crash_event]</li>
+				
+				<li>crash_event->crash</li>
+				<li>crash_event->fall</li>
+				<li>crash_event->hard landing</li>
+				<li>crash_event->impact</li>
+				<li>crash_event->wreck</li>
+				
+				<li>crash_surv(p=3)->survivors</li>
+				<li>crash_surv->escapees</li>
+				<li>crash_surv->evacuees</li>
+				<li>crash_surv->castaways</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>spacer_good->Words/Nouns/Concepts_Positive</li>
+				<li>spacer_bad->Words/Nouns/Concepts_Angsty</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerSettlementSpacer</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=3)->[startname_prefix][startname_suffix]'s [townend]</li>
+				<li>r_name(p=3)->[startname_nick] [startname_prefix][startname_suffix]'s [townend]</li>
+				<li>r_name(p=3)->[startname_nick]'s [noun_geo]</li>
+				<li>r_name->the [adj_good] [noun_bad] [townend]</li>
+				<li>r_name->the [adj_bad] [noun_good] [townend]</li>
+				<li>r_name->the [adj_good] [noun_geo] [townend]</li>
+				<li>r_name->the [adj_bad] [noun_geo] [townend]</li>
+
+				<li>startname_prefix->sky</li>
+				<li>startname_prefix->star</li>
+				<li>startname_prefix->space</li>
+				<li>startname_prefix->jet</li>
+				<li>startname_prefix->laser</li>
+				<li>startname_prefix->plasma</li>
+				<li>startname_prefix->steel</li>
+				<li>startname_prefix->day</li>
+				<li>startname_prefix->night</li>
+				<li>startname_prefix->high</li>
+				
+				<li>startname_suffix->walker</li>
+				<li>startname_suffix->pilot</li>
+				<li>startname_suffix->setter</li>
+				<li>startname_suffix->way</li>
+				<li>startname_suffix->dodger</li>
+				<li>startname_suffix->roller</li>
+				<li>startname_suffix->sen</li>
+				<li>startname_suffix->blaster</li>
+				
+				<li>startname_nick->Luek</li>
+				<li>startname_nick->Jaen</li>
+				<li>startname_nick->Eev</li>
+				<li>startname_nick->Aeda</li>
+				<li>startname_nick->Oryan</li>
+				<li>startname_nick->Lin</li>
+				<li>startname_nick->Pika</li>
+				<li>startname_nick->Ren</li>
+				<li>startname_nick->Kylo</li>
+				<li>startname_nick->Rok</li>
+				
+				<li>townend->crash site</li>
+				<li>townend->fall</li>
+				<li>townend->landing</li>
+				<li>townend->camp</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>noun_good->Words/Nouns/Concepts_Positive</li>
+				<li>noun_bad->Words/Nouns/Concepts_Angsty</li>
+				<li>adj_bad->Words/Adjectives/Angsty</li>
+				<li>adj_good->Words/Adjectives/Friendly</li>
+				<li>noun_geo->Words/Nouns/NaturalObject</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

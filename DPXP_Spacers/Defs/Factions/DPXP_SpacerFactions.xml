@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<FactionDef ParentName="OutlanderFactionBase">
+		<defName>FallenStars</defName>
+		<label>fallen stars</label>
+		<description>Not long ago, a large passenger star ship full of spacers and stationeers made an emergency landing on this planet. Having failed to find a way off the planet, these former citizens of the stars have had to accept life on the ground.</description>
+		<colorSpectrum>
+			<li>(0.80, 0.80, 0.50)</li>
+			<li>(0.50, 0.70, 0.80)</li>
+			<li>(0.80, 0.80, 0.20)</li>
+		</colorSpectrum>
+		<classicIdeo>true</classicIdeo>
+    <factionNameMaker>NamerFactionSpacer</factionNameMaker>
+    <settlementNameMaker>NamerSettlementSpacer</settlementNameMaker>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>91</configurationListOrderPriority>
+		<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
+		<leaderTitle>captain</leaderTitle>
+		<factionIconPath>UI/Factions/FallenStar</factionIconPath>
+		<techLevel>Spacer</techLevel>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+		</disallowedMemes>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Astro>0.13</Astro>
+				<Syren>0.08</Syren>
+				<MGen>0.13</MGen>
+				<Behinder MayRequire="dpxp_exoadapt">0.02</Behinder>
+				<Duster MayRequire="dpxp_exoadapt">0.02</Duster>
+				<Snowy MayRequire="dpxp_exoadapt">0.02</Snowy>
+				<Farril MayRequire="dpxp_exoadapt">0.02</Farril>
+				<Hussar>0.05</Hussar>
+				<Genie>0.03</Genie>
+			</xenotypeChances>
+		</xenotypeSet>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>1.0</commonality>
+			</li>
+		</backstoryFilters>
+		
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_Exotic</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+	</FactionDef>
+	
+</Defs>

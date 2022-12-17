@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RulePackDef>
+		<defName>NamerFactionClimateWarlord</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[adjectives_angsty] [nouns_animals_badass] [nouns_politicalunions_outlander]</li>
+				<li>r_name->the [adjectives_badass] [nouns_weapons] of [nouns_concepts_positive]</li>
+				<li>r_name->the [nouns_colors_badass] [nouns_concepts_angsty] of [nouns_concepts_positive]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_angsty->Words/Adjectives/Angsty</li>
+				<li>adjectives_badass->Words/Adjectives/Badass</li>
+				<li>nouns_animals_badass->Words/Nouns/Animals_Badass</li>
+				<li>nouns_weapons->Words/Nouns/Weapons</li>
+				<li>nouns_politicalunions_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+				<li>nouns_concepts_positive->Words/Nouns/Concepts_Positive</li>
+				<li>nouns_concepts_angsty->Words/Nouns/Concepts_Angsty</li>
+				<li>nouns_colors_badass->Words/Nouns/Colors_Badass</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>NamerSettlementClimateWarlord</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[adjectives_badass] [nouns_naturalobject] [nouns_communities]</li>
+				<li>r_name->[adjectives_angsty] [nouns_animals_badass] [nouns_communities]</li>
+				<li>r_name->[adjectives_badass] [nouns_concepts_positive] [nouns_terrainfeatures]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_angsty->Words/Adjectives/Angsty</li>
+				<li>adjectives_badass->Words/Adjectives/Badass</li>
+				<li>nouns_animals_badass->Words/Nouns/Animals_Badass</li>
+				<li>nouns_weapons->Words/Nouns/Weapons</li>
+				<li>nouns_politicalunions_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+				<li>nouns_concepts_positive->Words/Nouns/Concepts_Positive</li>
+				<li>nouns_concepts_angsty->Words/Nouns/Concepts_Angsty</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_communities->Words/Nouns/Communities</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerFactionBehinder</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[adjectives_angsty] [nouns_naturalobject]</li>
+				<li>r_name->[adjectives_angsty] [nouns_concepts_positive] [nouns_politicalunions_outlander]</li>
+				<li>r_name->the [adjectives_angsty] [nouns_concepts_positive]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_angsty->Words/Adjectives/Angsty</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_concepts_positive->Words/Nouns/Concepts_Positive</li>
+				<li>nouns_politicalunions_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>NamerSettlementBehinder</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[adjectives_angsty] [nouns_naturalobject] [nouns_communities]</li>
+				<li>r_name->[adjectives_angsty] [adjectives_friendly] [nouns_communities]</li>
+				<li>r_name->[adjectives_angsty] [nouns_concepts_positive] [nouns_terrainfeatures]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_angsty->Words/Adjectives/Angsty</li>
+				<li>adjectives_friendly->Words/Adjectives/Friendly</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_concepts_positive->Words/Nouns/Concepts_Positive</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+				<li>nouns_communities->Words/Nouns/Communities</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerFactionDuster</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->the [adjectives_curious] [nouns_politicalunions_outlander]</li>
+				<li>r_name->the [nouns_concepts_positive] of the [nouns_terrainfeatures]</li>
+				<li>r_name->[adjectives_natural] [nouns_terrainfeatures] [nouns_politicalunions_outlander]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_curious->Words/Adjectives/Curious</li>
+				<li>nouns_politicalunions_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+				<li>nouns_concepts_positive->Words/Nouns/Concepts_Positive</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+				<li>adjectives_natural->Words/Adjectives/Natural</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>NamerSettlementDuster</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[adjectives_friendly] [nouns_naturalobject] [nouns_communities]</li>
+				<li>r_name->[adjectives_compassdirections] [adjectives_friendly] [nouns_terrainfeatures] [nouns_communities]</li>
+				<li>r_name->[nouns_colors] [nouns_naturalobject]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_friendly->Words/Adjectives/Friendly</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+				<li>nouns_communities->Words/Nouns/Communities</li>
+				<li>adjectives_compassdirections->Words/Adjectives/CompassDirections</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+				<li>nouns_colors->Words/Nouns/Colors</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerFactionFarril</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->the [adjectives_badass] [nouns_concepts_positive]</li>
+				<li>r_name->the [adjectives_badass] [nouns_weapons] [nouns_naturalobject]</li>
+				<li>r_name->[nouns_concepts_positive] of the [nouns_colors_badass] [nouns_animals_badass]</li>
+				<li>r_name->[nouns_colors_badass] [nouns_animals_badass] [nouns_politicalunions_tribal]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_badass->Words/Adjectives/Badass</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_concepts_positive->Words/Nouns/Concepts_Positive</li>
+				<li>nouns_politicalunions_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
+				<li>nouns_weapons->Words/Nouns/Weapons</li>
+				<li>nouns_animals_badass->Words/Nouns/Animals_Badass</li>
+				<li>nouns_colors_badass->Words/Nouns/Colors_Badass</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>NamerSettlementFarril</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[adjectives_natural] [nouns_animals_badass] [nouns_communities]</li>
+				<li>r_name->[adjectives_badass] [nouns_naturalobject] [nouns_communities]</li>
+				<li>r_name->[adjectives_compassdirections] [nouns_animals_badass] [nouns_terrainfeatures]</li>
+				<li>r_name->[adjectives_compassdirections] [nouns_animals] by [adjectives_badass] [nouns_naturalobject]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_natural->Words/Adjectives/Natural</li>
+				<li>adjectives_badass->Words/Adjectives/Badass</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+				<li>nouns_communities->Words/Nouns/Communities</li>
+				<li>nouns_animals_badass->Words/Nouns/Animals_Badass</li>
+				<li>adjectives_compassdirections->Words/Adjectives/CompassDirections</li>
+				<li>nouns_animals->Words/Nouns/Animals</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+
+	<RulePackDef>
+		<defName>NamerFactionSnowy</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->the [nouns_politicalunions_outlander] of the [adjectives_angsty] [nouns_naturalobject]</li>
+				<li>r_name->[nouns_colors] [nouns_terrainfeatures] [nouns_politicalunions_outlander]</li>
+				<li>r_name->[adjectives_angsty] [nouns_naturalobject] of [nouns_concepts_positive]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_angsty->Words/Adjectives/Angsty</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_concepts_positive->Words/Nouns/Concepts_Positive</li>
+				<li>nouns_politicalunions_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+				<li>nouns_colors->Words/Nouns/Colors</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<RulePackDef>
+		<defName>NamerSettlementSnowy</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[adjectives_friendly] [nouns_naturalobject] [nouns_communities]</li>
+				<li>r_name->[adjectives_friendly] [nouns_concepts_angsty] [nouns_communities]</li>
+				<li>r_name->[adjectives_compassdirections] [nouns_terrainfeatures] [nouns_communities] </li>
+				<li>r_name->[nouns_artworks] [nouns_naturalobject] [nouns_concepts_angsty]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>adjectives_friendly->Words/Adjectives/Friendly</li>
+				<li>nouns_concepts_angsty->Words/Nouns/Concepts_Angsty</li>
+				<li>adjectives_friendly->Words/Adjectives/Friendly</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+				<li>nouns_communities->Words/Nouns/Communities</li>
+				<li>adjectives_compassdirections->Words/Adjectives/CompassDirections</li>
+				<li>nouns_artworks->Words/Nouns/Artworks</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+<!--
+All possible word ruleFile items:
+
+				<li>adjectives_angsty->Words/Adjectives/Angsty</li>
+				<li>adjectives_badass->Words/Adjectives/Badass</li>
+				<li>adjectives_compassdirections->Words/Adjectives/CompassDirections</li>
+				<li>adjectives_curious->Words/Adjectives/Curious</li>
+				<li>adjectives_friendly->Words/Adjectives/Friendly</li>
+				<li>adjectives_large->Words/Adjectives/Large</li>
+				<li>adjectives_natural->Words/Adjectives/Natural</li>
+				<li>adjectives_politicalunions->Words/Adjectives/PoliticalUnions</li>
+				<li>foreign_tribal->Words/Foreign/Tribal</li>
+				<li>misc_numbers_smallroman->Words/Misc/Numbers_SmallRoman</li>
+				<li>nouns_animalgroups->Words/Nouns/AnimalGroups</li>
+				<li>nouns_animals->Words/Nouns/Animals</li>
+				<li>nouns_animals_badass->Words/Nouns/Animals_Badass</li>
+				<li>nouns_apparel->Words/Nouns/Apparel</li>
+				<li>nouns_artworks->Words/Nouns/Artworks</li>
+				<li>nouns_bodyparts->Words/Nouns/Bodyparts</li>
+				<li>nouns_businesstypes->Words/Nouns/BusinessTypes</li>
+				<li>nouns_colors->Words/Nouns/Colors</li>
+				<li>nouns_colors_badass->Words/Nouns/Colors_Badass</li>
+				<li>nouns_communities->Words/Nouns/Communities</li>
+				<li>nouns_concepts_angsty->Words/Nouns/Concepts_Angsty</li>
+				<li>nouns_concepts_badass->Words/Nouns/Concepts_Badass</li>
+				<li>nouns_concepts_positive->Words/Nouns/Concepts_Positive</li>
+				<li>nouns_enemies->Words/Nouns/Enemies</li>
+				<li>nouns_games->Words/Nouns/Games</li>
+				<li>nouns_gore->Words/Nouns/Gore</li>
+				<li>nouns_groupnames->Words/Nouns/GroupNames</li>
+				<li>nouns_mechanoid->Words/Nouns/Mechanoid</li>
+				<li>nouns_naturalobject->Words/Nouns/NaturalObject</li>
+				<li>nouns_people_allies->Words/Nouns/People_Allies</li>
+				<li>nouns_people_badass->Words/Nouns/People_Badass</li>
+				<li>nouns_people_family->Words/Nouns/People_Family</li>
+				<li>nouns_people_jobs->Words/Nouns/People_Jobs</li>
+				<li>nouns_personalcharacteristics->Words/Nouns/PersonalCharacteristics</li>
+				<li>nouns_politicalunions_outlander->Words/Nouns/PoliticalUnions_Outlander</li>
+				<li>nouns_politicalunions_tribal->Words/Nouns/PoliticalUnions_Tribal</li>
+				<li>nouns_quests->Words/Nouns/Quests</li>
+				<li>nouns_stories->Words/Nouns/Stories</li>
+				<li>nouns_talktopics_heavy->Words/Nouns/TalkTopics_Heavy</li>
+				<li>nouns_talktopics_light->Words/Nouns/TalkTopics_Light</li>
+				<li>nouns_terrainfeatures->Words/Nouns/TerrainFeatures</li>
+				<li>nouns_treetypes->Words/Nouns/TreeTypes</li>
+				<li>nouns_vegetables->Words/Nouns/Vegetables</li>
+				<li>nouns_weapons->Words/Nouns/Weapons</li>
+				<li>verbs_friendly->Words/Verbs/Friendly</li>
+
+-->
+
+</Defs>

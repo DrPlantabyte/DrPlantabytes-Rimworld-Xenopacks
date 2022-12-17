@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>dpxp_spacers</packageId>
+	<name>Xenotype Pack - Spacers</name>
+	<author>Dr. Plantabyte</author>
+	<url>https://github.com/DrPlantabyte/DrPlantabytes-Rimworld-Xenopacks</url>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>
+This mod is contains xenotypes of humans engineered for life in orbital and interplanetary space stations.
+	</description>
+	<modDependencies>
+	<li>
+		<packageId>ludeon.rimworld.biotech</packageId>
+		<displayName>Biotech</displayName>
+	</li>
+	</modDependencies>
+</ModMetaData>

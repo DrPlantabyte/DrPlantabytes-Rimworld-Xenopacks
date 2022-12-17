@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>dpxp_exoadapt</packageId>
+	<name>Xenotype Pack - Exoplanet Adaptation</name>
+	<author>Dr. Plantabyte</author>
+	<url>https://github.com/DrPlantabyte/DrPlantabytes-Rimworld-Xenopacks</url>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>
+This mod is a collection of xenotypes and factions representing human populations who were forced to change their genomes to survive in extreme exo-planet environments
+	</description>
+	<modDependencies>
+	<li>
+		<packageId>ludeon.rimworld.biotech</packageId>
+		<displayName>Biotech</displayName>
+	</li>
+	</modDependencies>
+</ModMetaData>
