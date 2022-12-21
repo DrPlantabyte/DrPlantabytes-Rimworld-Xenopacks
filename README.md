@@ -74,7 +74,7 @@ A loose confederation of Duster homesteads and villages (civil faction).
 The Farril hunting camps are always hungry (rough faction).
 
 ### Scenarios
-Along with the scenarios comes a new player faction, The Left Behind, and industrial player faction that begins with a few more typical industrial technologies already researched, such as batteries, machining, and watermill generators.
+Along with the scenarios comes a new player faction, The Left Behind, an industrial player faction that begins with a few more typical industrial technologies already researched, such as batteries, machining, and watermill generators.
 
 #### Left Behind
 Global pollution has hit a tipping point and the planet will soon be inhabitable. Half the population left to colonize another planet and took most of the resources with them, but you were not one of them; you were left behind. Yet you will not go peacefully into the night. By hook or crook, you and your companions will do something, ANYTHING, to find a way to survive the coming apocalypse.
