@@ -11,7 +11,7 @@ This mod contains xenotypes of humans engineered for life in space stations and 
 
 #### Astro
 ![Astro-pawn](https://user-images.githubusercontent.com/1922739/208227290-6bcd2be0-08f9-435c-943a-d5c7c107bbd7.png)
-The first Astros were volunteers for servicing and maintaining critical inter-planetary infrastructure, requiring them to live and work for far longer than ordinary human biology can sustain. Thus they accepted a carefully researched set of artificial genes to allow them to live as normal a life as possible in the vast void.
+The first Astros were volunteers for servicing and maintaining critical inter-planetary infrastructure, requiring them to live and work in deep space for far longer than ordinary human biology can sustain. Thus they accepted a carefully researched set of artificial genes to allow them to live as normal a life as possible in the vast void.
 
 Astros are resistant to toxins and radiation, and they need less nutrition than most humans, but they move slowly under normal gravity and need more sleep. They are completely hairless, and their photosynthetic skin can be any shade of green, orange, red, or gray.
 
@@ -61,6 +61,9 @@ Whether because of a sudden ice age or bad navigation, the Snowies' ancestors fo
 #### Climate Warlord
 The global climate on this exoplanet has been destabilized, and a number of desparate climate refugees have banded together under the banner of a warlord who promised to shepard them through the climate crisis... by extracting supplies and technology from neighboring settlements (rough faction).
 
+#### The Behinder Resistance
+A clandestine network of Behinders still angry at most of humanity for having been "left behind" by the rich folk who polluted the planet and then abandoned it for another (rough faction).
+
 #### Snowy Outlanders
 A loose confederation of Snowy homesteads and villages (civil faction).
 
@@ -69,6 +72,18 @@ A loose confederation of Duster homesteads and villages (civil faction).
 
 #### Farril Hunters
 The Farril hunting camps are always hungry (rough faction).
+
+### Scenarios
+Along with the scenarios comes a new player faction, The Left Behind, and industrial player faction that begins with a few more typical industrial technologies already researched, such as batteries, machining, and watermill generators.
+
+#### Left Behind
+Global pollution has hit a tipping point and the planet will soon be inhabitable. Half the population left to colonize another planet and took most of the resources with them, but you were not one of them; you were left behind. Yet you will not go peacefully into the night. By hook or crook, you and your companions will do something, ANYTHING, to find a way to survive the coming apocalypse.
+
+#### Climate Armageddon
+Global warming has completely destabilized the planet's global climate systems. Civilization has crumbled in the face of lethal temperatures destructive weather. Can you build a refuge against the storm? Or will you be swept away?
+
+#### Ice Age
+Something has disrupted the planet's climate, and now an ice age is coming. Will you adapt? Evolve? Or escape the creeping ice?
 
 ## Use, Distribution, and Licensing
 These mods are licensed under the [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) Creative Commons License.

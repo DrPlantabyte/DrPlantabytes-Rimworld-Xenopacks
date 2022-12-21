@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- add industrial level tech to starting tech tree
+	tag name: DPXP_IndustrialStart
+	-->
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Batteries"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="Batteries"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="Batteries"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="WatermillGenerator"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="WatermillGenerator"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="WatermillGenerator"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="SolarPanels"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="SolarPanels"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="SolarPanels"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="BiofuelRefining"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="BiofuelRefining"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="BiofuelRefining"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Hydroponics"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="Hydroponics"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="Hydroponics"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Machining"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="Machining"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="Machining"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Brewing"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="Brewing"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="Brewing"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="Pemmican"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="CarpetMaking"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="FertilityProcedures"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<!-- no <tags> element in this tech def yet -->
+			<xpath>/Defs/ResearchProjectDef[defName="FertilityProcedures"]</xpath>
+			<value>
+				<tags>
+					<li>DPXP_IndustrialStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<!-- <tags> element already present -->
+			<xpath>/Defs/ResearchProjectDef[defName="FertilityProcedures"]/tags</xpath>
+			<value>
+					<li>DPXP_IndustrialStart</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- 
+Climate cycle notes:
+biome official range: 3-30C
+yr  	season 	min	max	day
+yr 1	spring	3	33	1-15
+yr 1	summer	33	29	16-30
+yr 1	fall	29	20	31-45
+yr 1	winter	20	23	46-60
+yr 2	spring	23	38	61-75
+yr 2	summer	38	35	76-90
+yr 2	fall	35	6	91-105
+yr 2	winter	6	7	106-120
+yr 3	spring	7	19	121-135
+yr 3	summer	19	6	136-150
+yr 3	fall	6	-20	151-165
+yr 3	winter	-20	-12	166-180
+yr 4	spring	-12	2	181-195
+yr 4	summer	2	6	196-210
+yr 4	fall	6	-10	211-225
+yr 4	winter	-10	9	226-240
+
+Conclusion: Climate Cycle causes extremely hot year 1-2 and extremely cold year 3-4
+ -->
+
+	<ScenarioDef name="DPXP_LeftBehindPolluted">
+		<defName>DPXP_LeftBehindPolluted</defName>
+		<label>Left Behind</label>
+		<!--<description>You were left behind when humanity abandoned this doomed world.</description>-->
+		<description>Global pollution has hit a tipping point and the planet will soon be inhabitable. Half the population left to colonize another planet and took most of the resources with them, but you were not one of them; you were left behind. Yet you will not go peacefully into the night. By hook or crook, you and your companions will do something, ANYTHING, to find a way to survive the coming apocalypse.</description>
+		
+		<scenario>
+			<summary>Half of humanity has abandoned this polluted world, but you were left behind.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>DPXP_PlayerLeftBehind</factionDef>
+				<!--<factionDef>PlayerColony</factionDef>-->
+			</playerFaction>
+			<parts>
+			<!-- config parts -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<pawnCount>4</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+			<!-- starting items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_BoltActionRifle</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_Duster</thingDef>
+					<stuff>Leather_Pig</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Revolver</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Steel</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_AdvancedHelmet</thingDef>
+					<stuff>Steel</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakVest</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakPants</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>113</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>44</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+				</li>
+			<!-- stuff scattered around the map -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Wastepack</thingDef>
+					<count>100</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+			<!-- scenario parts -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>You watch as the last batch of arcology ships blast off into space, like reverse shooting stars. They left to find another home for humanity, bringing all their resrouces with them. They left for a fresh start on a planet that isn't doomed. They left...\n\nThey left you behind.\n\nA toxic armageddon comes in 1 year (60 days). Adapt, evolve, escape, or go peacefully into the night.</text>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>OrbitalTraderArrival</incident>
+				</li>
+				<li Class="ScenPart_PermaGameCondition">
+					<def>PermanentGameCondition</def>
+					<gameCondition>NoxiousHaze</gameCondition>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>Aurora</incident>
+					<intervalDays>0.6</intervalDays>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>AnimalInsanityMass</incident>
+					<intervalDays>48.43</intervalDays>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>ToxicFallout</incident>
+					<intervalDays>51.87</intervalDays>
+					<repeat>True</repeat>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	
+	<ScenarioDef name="DPXP_ClimateArmageddon">
+		<defName>DPXP_ClimateArmageddon</defName>
+		<label>Climate Armageddon</label>
+		<description>Global warming has completely destabilized the planet's global climate systems. Civilization has crumbled in the face of lethal temperatures and destructive weather. Those with the means to do so have already abandoned the planet, but you and your companions are not so fortunate. Can you build a refuge against the storm? Or will you be swept away?</description>
+		
+		<scenario>
+			<summary>Global warming has completely destabilized the global exoclimate system and civilization has crumbled. Can you survive the new normal?</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>DPXP_PlayerLeftBehind</factionDef>
+				<!--<factionDef>PlayerColony</factionDef>-->
+			</playerFaction>
+			<parts>
+			<!-- config parts -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<pawnCount>4</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>For over a century, climate scientist warnings fell on deaf ears, then the exoclimate finally broke, and with it, all of civilization.\n\nYou and your companions fled when the last functional starport fell to an unruly mob, driving a stolen vehicle until it collapsed into a hunk of junk. This will be where you will make your last stand against the climate apocalypse.</text>
+				</li>
+			<!-- starting items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_BoltActionRifle</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Revolver</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Steel</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_AdvancedHelmet</thingDef>
+					<stuff>Steel</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakVest</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakPants</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>113</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>44</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+				</li>
+			<!-- stuff around the map -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>ChunkSlagSteel</thingDef>
+					<count>9</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+			<!-- scenario parts -->
+				<li Class="ScenPart_PermaGameCondition">
+					<def>PermanentGameCondition</def>
+					<gameCondition>ClimateCycle</gameCondition>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>AnimalInsanityMass</incident>
+					<intervalDays>75.12</intervalDays>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>HeatWave</incident>
+					<intervalDays>77.77</intervalDays>
+					<repeat>True</repeat>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>ColdSnap</incident>
+					<intervalDays>164.87</intervalDays>
+					<repeat>True</repeat>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>Flashstorm</incident>
+					<intervalDays>31.85509</intervalDays>
+					<repeat>True</repeat>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	
+	<ScenarioDef name="DPXP_">
+		<defName>DPXP_IceAge</defName>
+		<label>Ice Age</label>
+		<description>Here, as on Earth, the time between ice ages is much smaller than the duration of the ice ages themselves. The time of relative warmth has come to an end, and now endless winter is coming. A band of 4 brave souls decide they would rather brave the new world than huddle in the crumbling last vestiges of civilization.</description>
+		
+		<scenario>
+			<summary>Something has disrupted the planet's climate, and now an ice age is coming. Will you adapt? Evolve? Or escape the creeping ice?</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>DPXP_PlayerLeftBehind</factionDef>
+			</playerFaction>
+			<parts>
+			<!-- config parts -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<pawnCount>4</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>As the skies grew dim and the crops failed, global panic set in. Nobody had predicted that the ice age would come so suddenly.\n\nYou and your companions faced a choice: cryosleep in a secure vault and pray you wake-up in a hundred thousand years, or fight the ice for survival?\n\nYou chose the second option.</text>
+				</li>
+			<!-- starting items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_BoltActionRifle</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Revolver</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Steel</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_Parka</thingDef>
+					<stuff>Cloth</stuff>
+					<count>4</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>113</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>44</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+				</li>
+			<!-- stuff around the map -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>ChunkSlagSteel</thingDef>
+					<count>9</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+			<!-- scenario parts -->
+				<li Class="ScenPart_PermaGameCondition">
+					<def>PermanentGameCondition</def>
+					<gameCondition>VolcanicWinter</gameCondition>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>ColdSnap</incident>
+					<intervalDays>7</intervalDays>
+					<repeat>True</repeat>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>HeatWave</incident>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	<!--
+	<ScenarioDef name="DPXP_">
+		<defName>DPXP_</defName>
+		<label></label>
+		<description></description>
+		
+		<scenario>
+			<summary></summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>DPXP_PlayerLeftBehind</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<pawnCount>4</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	-->
+</Defs>
+  
