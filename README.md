@@ -35,7 +35,7 @@ Not too long ago, a large passenger star ship full of spacers and stationeers ma
 ### Scenarios
 
 #### Fame & Misfortune
-An interstellar space celebrity and 3 of their handlers are stuck on a distant rim world after their private starship suffered a navigational error while on tour. They have money, lots of it, but not much else.
+An interstellar space celebrity and 3 of their handlers are stuck on a distant rim world after their private starship suffered a navigational error while on tour. They have money, lots of it, but not much else. A passing trader spotted their arrival and will come by in the morning to trade.
 
 ## Exoplanet Adaptation
 ![Preview](https://user-images.githubusercontent.com/1922739/208227086-15f1ed75-5d14-471d-a185-a93ec87f505e.png)
