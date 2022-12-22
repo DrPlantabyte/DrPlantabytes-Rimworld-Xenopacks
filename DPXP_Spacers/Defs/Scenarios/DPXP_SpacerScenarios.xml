@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ScenarioDef name="DPXP_FameMisfortune">
+		<defName>DPXP_FameMisfortune</defName>
+		<label>Fame &amp; Misfortune</label>
+		<description>An interstellar space celebrity and 3 of their handlers are stuck on a distant rim world after their private starship suffered a navigational error while on tour. They have money, lots of it, but not much else.</description>
+		
+		<scenario>
+			<summary>A spacer celebrity and their entourage wind-up in the wrong starsystem. They have lots of money, but not much else.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+			<!-- config parts -->
+				
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<xenotypeCounts>
+						<li>
+							<xenotype>Syren</xenotype>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<xenotype>Astro</xenotype>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<xenotype>MGen</xenotype>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+						<li>
+							<xenotype>Baseliner</xenotype>
+							<count>1</count>
+							<requiredAtStart>true</requiredAtStart>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+			<!-- starting items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gold</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>2000</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Beer</thingDef>
+					<count>24</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>80</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakJacket</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Autopistol</thingDef>
+				</li>
+			<!-- stuff scattered around the map -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>200</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+			<!-- scenario parts -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>The last thing you remember was celebrating another smash-hit performance, your last in the Gliese-8108 system before heading to the next system to be adored by another few billion fans.\n\nBut as you awoke from cryosleep, still hung-over, all the screens were black except for a flashing red error message.\n\n"We're stuck," one of your handlers said, "grab the survival kit and prep the escape pods."\n\n"Where are we?" you asked.\n\n"The Rim."</text>
+					<textKey>GameStartDialog</textKey>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<hideOffMap>True</hideOffMap>
+					<hediff>Hangover</hediff>
+					<severityRange>1~1</severityRange>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>ShipBasics</project>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>TraderCaravanArrival</incident>
+					<intervalDays>1</intervalDays>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	<!--
+	<ScenarioDef name="DPXP_">
+		<defName>DPXP_</defName>
+		<label></label>
+		<description></description>
+		
+		<scenario>
+			<summary></summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>DPXP_PlayerLeftBehind</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<pawnCount>4</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	-->
+</Defs>
+  

@@ -32,6 +32,11 @@ Syren can slowly change their appearance over time, automatically becoming the e
 #### The Fallen Stars
 Not too long ago, a large passenger star ship full of spacers and stationeers made an emergency landing on this planet. Having failed to find a way off the planet, these former citizens of the stars have had to accept life on the ground (civil faction).
 
+### Scenarios
+
+#### Fame & Misfortune
+An interstellar space celebrity and 3 of their handlers are stuck on a distant rim world after their private starship suffered a navigational error while on tour. They have money, lots of it, but not much else.
+
 ## Exoplanet Adaptation
 ![Preview](https://user-images.githubusercontent.com/1922739/208227086-15f1ed75-5d14-471d-a185-a93ec87f505e.png)
 
