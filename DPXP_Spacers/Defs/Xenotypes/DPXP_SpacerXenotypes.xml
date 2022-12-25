@@ -32,19 +32,19 @@
 	<XenotypeDef>
 		<defName>MGen</defName>
 		<label>M-Gen</label>
-		<description>The M-Gens (short for many-generation spacers) have lived in orbital space stations for over a hundred generations. In that time, they've evolved distinct traits by natural selection in such an artificial environment. M-Gens very rarely get sick and quickly build immunity to disease. They tend to have calm dispositions and keen minds compatible with living one's entire life in a small crowded space. However, M-Gens suffer from a form of albinism that makes them sensitive to natural sunlight and their pain tolerance is distinctly lower than the average human.</description>
-		<descriptionShort>M-Gens lived in orbit for so long they naturally evolved strong immunity, calm emotions, and keen minds, but are sensitive to UV and pain.</descriptionShort>
+		<description>The M-Gens (short for many-generation spacers) have lived in orbital space stations for over a hundred generations. In that time, they've evolved distinct traits by natural selection in such an artificial environment. M-Gens very rarely get sick and quickly build immunity to disease. They tend to have calm dispositions and keen minds compatible with living one's entire life in a small crowded space. However, M-Gens suffer from a form of albinism that makes them sensitive to natural sunlight.</description>
+		<descriptionShort>M-Gens lived in orbit for so long they naturally evolved strong immunity, calm emotions, and keen minds, but are sensitive to UV and have fragile bones.</descriptionShort>
 		<iconPath>UI/Xenotypes/M-Gen</iconPath>
 		<inheritable>true</inheritable>
 		<genes>
 			<li>Immunity_SuperStrong</li>
 			<li>UVSensitivity_Mild</li>
 			<li>Aggression_DeadCalm</li>
-			<li>Pain_Extra</li>
+			<li>Delicate</li>
 			<li>Eyes_Red</li>
 			<li>Hair_SnowWhite</li>
 			<li>Skin_SheerWhite</li>
-			<li>AptitudeStrong_Intellectual</li>
+			<li>Learning_Fast</li>
 		</genes>
 	</XenotypeDef>
 
@@ -58,7 +58,7 @@
 		<genes>
 			<li>Immunity_Weak</li>
 			<li>PsychicAbility_Enhanced</li>
-			<li>Delicate</li>
+			<li>Pain_Extra</li>
 			<li>Beauty_Beautiful</li>
 			<li>Beard_NoBeardOnly</li>
 			<li>Body_Thin</li>

@@ -19,7 +19,7 @@ Astros are resistant to toxins and radiation, and they need less nutrition than 
 ![M-Gen-pawn](https://user-images.githubusercontent.com/1922739/208227154-87ed2e3a-57ec-4899-b6dd-1dc15ff553d8.png)
 The M-Gens (short for many-generation spacers) have lived in orbital space stations for over a hundred generations. In that time, they've evolved distinct traits by natural selection in such an artificial environment.
 
-M-Gens very rarely get sick and quickly build immunity to disease. They tend to have calm dispositions and keen minds compatible with living one's entire life in a small crowded space. However, M-Gens suffer from a form of albinism that makes them sensitive to natural sunlight and their pain tolerance is distinctly lower than the average human.
+M-Gens very rarely get sick and quickly build immunity to disease. They tend to have calm dispositions and keen minds compatible with living one's entire life in a small crowded space. However, M-Gens suffer from a form of albinism that makes them sensitive to natural sunlight and reduced bone density.
 
 #### Syren
 ![Syren-pawn](https://user-images.githubusercontent.com/1922739/208227158-29ea5e01-2d2b-43cb-b03c-f96fd061241b.png)
