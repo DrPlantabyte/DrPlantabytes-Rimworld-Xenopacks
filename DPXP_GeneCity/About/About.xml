@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>dpxp.genecity</packageId>
+	<name>Xenotype Pack - Sins of Gene City</name>
+	<author>Dr. Plantabyte</author>
+	<url>https://github.com/DrPlantabyte/DrPlantabytes-Rimworld-Xenopacks</url>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>
+This mod is contains xenotypes of humans engineered for profit and vanity in the futuristic urban dystpoia known as Gene City.
+	</description>
+	<modDependencies>
+	<li>
+		<packageId>ludeon.rimworld.biotech</packageId>
+		<displayName>Biotech</displayName>
+	</li>
+	</modDependencies>
+</ModMetaData>
