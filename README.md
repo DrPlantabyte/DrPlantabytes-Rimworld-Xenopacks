@@ -74,6 +74,7 @@ The following xenotypes were the product of rich and powerful people using exo-g
 
 #### Dalong
 (requires [Biotech Expansion - Mythic](https://steamcommunity.com/sharedfiles/filedetails/?id=2883216840))
+
 The Dalong gene-set was invented by a mysterious ultra-wealthy technologist with a hyper-captialist philosophy. He claimed to have "invented the perfect capitalist" and sold the gene-set to a number of his ultra-wealthy peers. The inventor further promised to build a new utopia that would only allow Dalong xenotypes to enter, but after raising the money to build this utopia, he took all of the money and disappeared. While most beleive the whole affair was an elaborate scam, some of the purchasers of the Dalong gene-set still believe that their utopia is out there, waiting for them.
 
 Those posessing the Dalong xenotype can eat gold and silver and use that material to project nanites that heal allies and injure enemies. They are exceptionally charismatic and do not appear to age, but can only eat meat and animals find them unsettling.
