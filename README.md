@@ -59,7 +59,7 @@ Something has disrupted the planet's climate, and now an ice age is coming. Will
 ## The Sins of Gene City
 ![Preview](https://user-images.githubusercontent.com/1922739/209642274-04fe2044-9d49-47f8-9128-789d3c006d81.png)
 
-They called it Gene City, a place where money could by anything: influence, people, even super-powers! The city's stratified class divide became a genetic one too, as many in the rich upper-class (aka "uppers") purchased varius vanity gene-sets, which the criminal underground sold dubious gene mods to desparate people in the lower-class (aka "lowers").
+They called it Gene City, a place where money could by anything: influence, people, even super-powers! The city's stratified class divide became a genetic one too, as many in the rich upper-class (aka "uppers") purchased various vanity gene-sets, which the criminal underground sold dubious gene mods to desperate people in the lower-class (aka "lowers").
 
 **Note that some of the genotypes in this mod require one of more of the following mods:**
 * [Biotech Expansion - Core](https://steamcommunity.com/sharedfiles/filedetails/?id=2884018485)
@@ -74,6 +74,7 @@ The following xenotypes were the product of rich and powerful people using exo-g
 
 #### Dalong
 (requires [Biotech Expansion - Mythic](https://steamcommunity.com/sharedfiles/filedetails/?id=2883216840))
+
 The Dalong gene-set was invented by a mysterious ultra-wealthy technologist with a hyper-captialist philosophy. He claimed to have "invented the perfect capitalist" and sold the gene-set to a number of his ultra-wealthy peers. The inventor further promised to build a new utopia that would only allow Dalong xenotypes to enter, but after raising the money to build this utopia, he took all of the money and disappeared. While most beleive the whole affair was an elaborate scam, some of the purchasers of the Dalong gene-set still believe that their utopia is out there, waiting for them.
 
 Those posessing the Dalong xenotype can eat gold and silver and use that material to project nanites that heal allies and injure enemies. They are exceptionally charismatic and do not appear to age, but can only eat meat and animals find them unsettling.
