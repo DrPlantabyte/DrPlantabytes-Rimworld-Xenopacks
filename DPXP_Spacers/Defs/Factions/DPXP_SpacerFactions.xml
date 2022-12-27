@@ -12,6 +12,7 @@
 			<li>(0.80, 0.80, 0.20)</li>
 		</colorSpectrum>
 		<classicIdeo>true</classicIdeo>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
     <factionNameMaker>NamerFactionSpacer</factionNameMaker>
     <settlementNameMaker>NamerSettlementSpacer</settlementNameMaker>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>

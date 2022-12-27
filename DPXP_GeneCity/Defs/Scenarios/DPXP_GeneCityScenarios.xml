@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ScenarioDef name="DPXP_Bioprospecting">
+		<defName>DPXP_Bioprospecting</defName>
+		<label>Gene City Bioprospectors</label>
+		<description>ZX Gene Labs, a Gene City megacorp, sent a few of their most expendable employees to analyse the natural and xenotype genomes on a remote rim world for potential economic value and resturn the samples back to HQ. \n\nThe contract only provided transportation to the rim world; the employees must build their own spaceship to return.</description>
+		
+		<scenario>
+			<summary>Four employees sent to a remote world to collect DNA samples and then build their own return starship.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+			<!-- config parts -->
+				
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<xenotypeCounts>
+						<li>
+							<requiredAtStart>False</requiredAtStart>
+							<xenotype>Baseliner</xenotype>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+						<li>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>Neron</xenotype>
+							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						</li>
+						<li>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>Hudrone</xenotype>
+							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						</li>
+						<li>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>Spare</xenotype>
+							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>Dear employee # 51761602C,\n\nWelcome to your new role as rim world bioprospector! As part of your new role, you've been sent to this rim world to collect DNA samples and scan them for gene alleles which may prove profitable to ZX Gene Labs. Then you are to build a starship to return your samples to Gene City HQ.\n\nWe have requisitioned on your behalf an allotment of supplies and three of our most expendable employees. This increases your calculated chance of success to the industry standard of 60%.\n\nSincerely,\nHuman Resources\nZX Gene Labs</text>
+					<textKey>GameStartDialog</textKey>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<chance>0.5</chance>
+					<hediff>CryptosleepSickness</hediff>
+					<severityRange>0.1024965~0.6281914</severityRange>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>80</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Autopistol</thingDef>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>1000</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Xenogermination</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>GeneProcessor</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Batteries</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>ShipBasics</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>DrugProduction</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>GoJuiceProduction</project>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	<!--
+	<ScenarioDef name="DPXP_">
+		<defName>DPXP_</defName>
+		<label></label>
+		<description></description>
+		
+		<scenario>
+			<summary></summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>DPXP_PlayerLeftBehind</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<pawnCount>4</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	-->
+</Defs>
+  

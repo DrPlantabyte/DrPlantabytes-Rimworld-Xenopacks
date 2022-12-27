@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 1 1"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Icon-Super.svg"
+   inkscape:export-filename="..\DPXP_GeneCity\Textures\UI\Xenotypes\Super.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="128.69343"
+     inkscape:cy="-32.526912"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text298">
+    <inkscape:grid
+       type="xygrid"
+       id="grid132"
+       empspacing="8" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="BG"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Main">
+    <g
+       aria-label="?"
+       transform="matrix(0.01076073,0,0,0.01076073,-0.13589189,-0.22446739)"
+       id="text298"
+       style="font-size:96px;line-height:1;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;opacity:1;stroke-width:2.17805855;stop-color:#000000;stop-opacity:1;fill:#00ff00;fill-opacity:1;stroke:#004000;stroke-opacity:1;stroke-dasharray:none">
+      <path
+         id="path9258"
+         style="fill:#ffffff;stroke:#404040;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+         d="m 82.326374,70.955217 c 0,19.246539 -11.616312,29.040777 -23.232624,29.040777 -11.616312,0 -23.232624,-9.794238 -23.232624,-29.040777 0,-19.246539 0,-34.848942 23.232624,-34.848942 23.232625,0 23.232624,15.602403 23.232624,34.848942 z"
+         sodipodi:nodetypes="sssss" />
+      <path
+         style="fill:#404040;fill-opacity:1;stroke:none;stroke-width:4.35612;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 32.957048,57.160842 c 2.178058,-0.726019 13.79437,-4.356117 23.232624,-1.452039 2.19435,0.675184 2.904078,0.726019 2.904078,0.726019 v 10.164274 c 0,0 -2.042704,0.385863 -3.630097,0.726019 -10.164274,2.178059 -19.602527,-1.452039 -22.506605,-1.452039"
+         id="path2973"
+         sodipodi:nodetypes="csccsc" />
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10143"
+         cx="47.477436"
+         cy="62.242977"
+         rx="5.808156"
+         ry="2.904078" />
+      <path
+         style="fill:#404040;fill-opacity:1;stroke:none;stroke-width:4.35612;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 85.230452,57.160843 c -2.178058,-0.726019 -13.79437,-4.356117 -23.232624,-1.452039 -2.19435,0.675184 -2.904078,0.726019 -2.904078,0.726019 v 10.164274 c 0,0 2.042704,0.385863 3.630097,0.726019 10.164274,2.178059 19.602527,-1.452039 22.506605,-1.452039"
+         id="path2977"
+         sodipodi:nodetypes="csccsc" />
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse10145"
+         cx="70.71006"
+         cy="62.242977"
+         rx="5.808156"
+         ry="2.904078" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="FG" />
+</svg>
