@@ -25,19 +25,19 @@
 							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
 						</li>
 						<li>
-							<requiredAtStart>True</requiredAtStart>
+							<requiredAtStart>False</requiredAtStart>
 							<xenotype>Neron</xenotype>
-							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
 						</li>
 						<li>
-							<requiredAtStart>True</requiredAtStart>
+							<requiredAtStart>False</requiredAtStart>
 							<xenotype>Hudrone</xenotype>
-							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
 						</li>
 						<li>
-							<requiredAtStart>True</requiredAtStart>
+							<requiredAtStart>False</requiredAtStart>
 							<xenotype>Spare</xenotype>
-							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
 						</li>
 					</xenotypeCounts>
 				</li>
@@ -47,7 +47,7 @@
 				</li>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>Dear employee # 51761602C,\n\nWelcome to your new role as rim world bioprospector! As part of your new role, you've been sent to this rim world to collect DNA samples and scan them for gene alleles which may prove profitable to ZX Gene Labs. Then you are to build a starship to return your samples to Gene City HQ.\n\nWe have requisitioned on your behalf an allotment of supplies and three of our most expendable employees. This increases your calculated chance of success to the industry standard of 60%.\n\nSincerely,\nHuman Resources\nZX Gene Labs</text>
+					<text>Dear employee # 51761602C,\n\nWelcome to your new role as rim world bioprospector! As part of your new role, you've been sent to this rim world to collect DNA samples and scan them for gene alleles which may prove profitable to ZX Gene Labs. Then you are to build a starship to return your samples to Gene City HQ.\n\nWe have requisitioned on your behalf an allotment of supplies and a few of our most expendable employees. This increases your calculated chance of success to the industry standard of 60%.\n\nSincerely,\nHuman Resources\nZX Gene Labs</text>
 					<textKey>GameStartDialog</textKey>
 					<closeSound>GameStartSting</closeSound>
 				</li>
