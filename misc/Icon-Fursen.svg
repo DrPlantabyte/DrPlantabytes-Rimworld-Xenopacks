@@ -9,7 +9,7 @@
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="Icon-Fursen.svg"
-   inkscape:export-filename="..\DRXP_Spacers\Textures\UI\Xenotypes\M-Gen.png"
+   inkscape:export-filename="..\DPXP_GeneCity\Textures\UI\Xenotypes\Fursen.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,8 +28,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="2.3786088"
-     inkscape:cx="-55.915038"
-     inkscape:cy="0.84082764"
+     inkscape:cx="145.46318"
+     inkscape:cy="119.39752"
      inkscape:window-width="1680"
      inkscape:window-height="987"
      inkscape:window-x="-8"
@@ -61,34 +61,39 @@
          style="fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
          d="m 82.326374,67.325115 c 0,13.794367 -11.616312,29.040781 -23.232624,29.040781 -11.616312,0 -23.232624,-15.246414 -23.232624,-29.040781 0,-19.246539 0,-31.21884 23.232624,-31.21884 23.232625,0 23.232624,11.972301 23.232624,31.21884 z"
          sodipodi:nodetypes="sssss" />
-      <ellipse
-         style="fill:#404040;fill-opacity:1;stroke:none;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path10143"
-         ry="2.904078"
-         rx="5.808156"
-         cy="62.242977"
-         cx="47.477436" />
-      <ellipse
-         style="fill:#404040;fill-opacity:1;stroke:none;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="ellipse10145"
-         ry="2.904078"
-         rx="5.808156"
-         cy="62.242977"
-         cx="70.71006" />
       <path
          style="fill:#ffffff;stroke:#404040;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
          d="m 70.710063,44.092491 c 0,0 5.808156,-17.424469 23.232624,-17.424469 0,23.232625 -17.424468,23.232625 -17.424468,23.232625"
          id="path1009"
          sodipodi:nodetypes="ccc" />
       <path
-         style="fill:#404040;fill-opacity:1;stroke:none;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="M 53.285594,73.133271 H 64.901906 L 59.09375,78.941428 Z"
+         style="fill:#404040;fill-opacity:1;stroke:#404040;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 53.285594,75.311329 H 64.901906 L 59.09375,81.119486 Z"
          id="path1139" />
       <path
          style="fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          d="m 47.477438,44.092491 c 0,0 -5.808156,-17.424469 -23.232624,-17.424469 0,23.232625 17.424468,23.232625 17.424468,23.232625"
          id="path1141"
          sodipodi:nodetypes="ccc" />
+      <path
+         style="font-size:96px;line-height:1;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:2.17806;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         d="m -84.658113,55.708803 c 0,-29.04078 11.616312,-37.026995 27.588741,-37.026995 15.972429,0 27.588742,7.986215 27.588742,37.026995 0,9.438254 -7.260197,37.026995 -27.588742,37.026995 -20.328546,0 -27.588741,-27.588741 -27.588741,-37.026995 z"
+         id="path1060"
+         sodipodi:nodetypes="szszs" />
+      <ellipse
+         style="font-size:96px;line-height:1;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#404040;fill-opacity:1;stroke:none;stroke-width:1.81278;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="path439"
+         cx="46.388409"
+         cy="64.421036"
+         rx="6.8971853"
+         ry="5.0821352" />
+      <ellipse
+         style="font-size:96px;line-height:1;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#404040;fill-opacity:1;stroke:none;stroke-width:1.81278;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="ellipse1679"
+         cx="71.799095"
+         cy="64.421036"
+         rx="6.8971853"
+         ry="5.0821352" />
     </g>
   </g>
   <g
