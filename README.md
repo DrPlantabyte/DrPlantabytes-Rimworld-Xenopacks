@@ -59,7 +59,7 @@ Something has disrupted the planet's climate, and now an ice age is coming. Will
 ## The Sins of Gene City
 ![Preview](https://user-images.githubusercontent.com/1922739/209642274-04fe2044-9d49-47f8-9128-789d3c006d81.png)
 
-They called it Gene City, a place where money could by anything: influence, people, even super-powers! The city's stratified class divide became a genetic one too, as many in the rich upper-class (aka "uppers") purchased various vanity gene-sets, which the criminal underground sold dubious gene mods to desperate people in the lower-class (aka "lowers").
+They called it Gene City, a place where money could by anything: influence, people, even super-powers! The city's stratified class divide became a genetic one too, as many in the rich upper-class (aka "uppers") purchased various vanity gene-sets, while the criminal underground sold dubious gene mods to desperate people in the lower-class (aka "lowers").
 
 **Note that some of the genotypes in this mod require one of more of the following mods:**
 * [Biotech Expansion - Core](https://steamcommunity.com/sharedfiles/filedetails/?id=2884018485)
